@@ -13,7 +13,7 @@ tar xzvf peco_linux_386.tar.gz
 chmod +x peco_linux_386/peco
 sudo cp peco_linux_386/peco /usr/local/bin
 git clone https://github.com/b4b4r07/enhancd
-echo source ~/enhancd/init.sh >> .bashrc
+echo source ~/enhancd/init.sh >> .zshrc
 rm peco_linux_386.tar.gz
 rm -rf peco_linux_386
 exec $SHELL -l
