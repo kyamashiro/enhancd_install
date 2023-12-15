@@ -6,7 +6,7 @@ if [ "`whoami`" == "root" ]; then
   exit 1
 fi
 
-sudo yum install wget -y
+sudo apt install wget -y
 cd ~
 wget "https://github.com/peco/peco/releases/download/v0.5.3/peco_linux_386.tar.gz"
 tar xzvf peco_linux_386.tar.gz
